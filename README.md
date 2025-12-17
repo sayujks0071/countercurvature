@@ -10,8 +10,7 @@
 - [Discussion](06_Discussion.md)
 - [Conclusion](07_Conclusion.md)
 
-## Supplementary Material
+## Analysis Code
 
-- [AlphaFold Analysis Report](supplementary/alphafold_analysis/analysis_report.md)
-- [Entropy-Curvature Correlation Plot](supplementary/alphafold_analysis/figures/entropy_curvature_correlation.png)
-- [Analysis Source Code](supplementary/alphafold_analysis/)
+- [AlphaFold Molecular Analysis](analysis/alphafold_analysis/): Code and reports for protein structure-information correlation.
+- [AlphaFold Report](analysis/alphafold_analysis/analysis_report.md)

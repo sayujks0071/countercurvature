@@ -29,6 +29,17 @@ We perform systematic parameter sweeps over the coupling strength $\chi_\kappa$ 
 
 Regimes are classified as \emph{gravity-dominated} ($\widehat{D}_{\mathrm{geo}} < 0.1$), \emph{cooperative} ($0.1 < \widehat{D}_{\mathrm{geo}} < 0.3$), or \emph{information-dominated} ($\widehat{D}_{\mathrm{geo}} > 0.3$).
 
+## AlphaFold Protein Structure Analysis
+
+To investigate "counter-curvature" at the molecular scale, we retrieved predicted 3D structures for candidate mechanosensitive and longevity-associated proteins from the AlphaFold Protein Structure Database.
+- **Targets**: YAP1 (P46937), FOXO3 (O43524), SIRT1 (Q96EB6), PGC1A (Q9UBK2).
+- **Structure Retrieval**: High-confidence models (v6) were downloaded via the AlphaFold API.
+- **Geometric Analysis**: For each protein, we computed the local backbone curvature $\kappa(s)$ along the C$\alpha$ trace using a sliding window of 5 residues.
+- **Information Content**: Shannon entropy $H$ was calculated from the primary amino acid sequence distribution.
+- **Correlation**: We computed the Pearson correlation coefficient between the mean backbone curvature and the sequence entropy to test the hypothesis that information-rich sequences encode more highly curved, structurally rigid geometries.
+
+The analysis code is provided in `analysis/alphafold_analysis/analyze_structures.py`.
+
 ## Validation
 
 The numerical implementation was validated against analytical solutions for small-deflection Euler-Bernoulli beams. The \texttt{PyElastica} implementation was further verified by reproducing standard buckling and hanging chain benchmarks (see Supplementary Material).
