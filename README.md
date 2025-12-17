@@ -1,4 +1,4 @@
-# Biological Countercurvature
+# Biological Countercurvature: An Information-Geometry Framework
 
 ## Table of Contents
 

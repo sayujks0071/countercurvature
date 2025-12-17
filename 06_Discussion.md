@@ -6,7 +6,17 @@ Our results suggest that the adult spinal shape is best understood as a "standin
 ## Links to Developmental Genetics and Evolution
 The information field $I(s)$ serves as a coarse-grained representation of the HOX code. The peaks in our phenomenological $I(s)$ correspond to the cervical and lumbar regions, suggesting that specific HOX paralogs may function as "curvature generators" by modulating local growth rates or tissue stiffness. Evolutionarily, the transition to bipedalism likely involved the tuning of this information field to stabilize the S-mode against the increased gravitational moment of an upright posture.
 
-Our AlphaFold analysis extends this concept to the molecular level, showing that proteins like YAP1 and FOXO3 exhibit structural curvature that correlates with their sequence information content. This implies a fractal-like organization where information acts as a "stiffening agent" against gravity from the protein backbone up to the vertebral column.
+Our AlphaFold analysis extends this concept to the molecular level. We observed that key mechanotransducers like YAP1 and FOXO3 exhibit high sequence entropy and structural curvature ($r \approx 0.68$). We propose that this curvature enables these proteins to function as sensitive "geometric sensors." Specifically, YAP1 is known to be regulated by cytoskeletal tension and extracellular matrix (ECM) stiffness~(dupont2011role). We hypothesize a multi-scale feedback loop: high-entropy proteins facilitate the formation of a stiffer, pre-stressed cytoskeletal network (molecular counter-curvature), which in turn stiffens the tissue matrix, stabilizing the macroscopic spinal geometry against gravitational collapse. This closes the gap between the angstrom-scale geometry of proteins and the meter-scale geometry of the spine.
+
+## Comparison to Passive Pre-stress Models
+A standard alternative hypothesis is that spinal curvature is simply maintained by muscular "pre-stress" (e.g., constant tone in erector spinae), effectively a tensegrity structure. While valid, such models are reaction-based—they require constant energy expenditure to fight gravity. Our IEC framework offers a more parsimonious explanation: the "target shape" is intrinsic to the material manifold itself (via the biological metric). In our model, the spine *wants* to be an S-shape due to its developmental programming; muscles merely fine-tune deviations from this zero-energy state, rather than actively forcing a C-shaped beam into an S-shape against its will.
+
+## Proposed Experimental Validation
+To rigorously test the IEC hypothesis against the null model (passive adaptation), we propose the following falsifiable experiment:
+1.  **HOX Perturbation**: Generate a transgenic mouse line with a conditional *Hoxc10* knockout targeted to the lumbar mesoderm.
+2.  **Prediction**: Under the IEC model, removing the "lumbar information peak" ($I(s) \to 0$ in lumbar) should abolish the effective metric dilation, causing the lumbar spine to revert to a passive, gravity-dominated C-shape (kyphosis) even if muscle tone is preserved.
+3.  **Control**: Comparison with a muscle-atrophy model (e.g., *HSA-Cre;DTA*) would distinguish between information-loss and muscle-loss phenotypes.
+
 
 ## Relation to Existing Biomechanical and Rod Models
 Traditional biomechanical models often prescribe the rest shape ad hoc or model the spine as a passive beam column. Our approach differs by deriving the geometry from an underlying scalar field. This connects the mechanics to the developmental inputs. Furthermore, by using Cosserat rod theory, we capture the full 3D kinematics (twist, shear) essential for understanding how planar information fields can give rise to out-of-plane deformities like scoliosis.

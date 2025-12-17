@@ -8,7 +8,11 @@ Consider a slender rod parameterized by arc-length $s \in [0, L]$. The configura
 
 ## Information field from developmental patterning
 
-We introduce a scalar field $I(s)$ representing the spatial distribution of developmental identity along the axis (e.g., HOX gene expression domains or segmentation clock outputs). This field acts as a ``morphogenetic coordinate,'' encoding the target geometry. For the spine, $I(s)$ is modeled as a bimodal distribution peaking in the cervical and lumbar regions, corresponding to the lordotic curves required for upright posture.
+We introduce a scalar field $I(s)$ representing the spatial distribution of developmental identity along the axis. Rather than an arbitrary function, $I(s)$ is grounded in the well-characterized HOX gene expression boundaries that define spinal regionalization~(wellik2007hox). Specifically:
+- **Cervical-Thoracic Transition**: Defined by the anterior expression limit of *Hoxc6* (associated with T1).
+- **Thoracic-Lumbar Transition**: Defined by the onset of *Hoxc10* and *Hoxd10* expression (associated with L1)~(burke1995hox).
+
+We model $I(s)$ as a superposition of these collinear expression domains. The resultant field peaks in the cervical and lumbar regions where "counter-curvature" (lordosis) is required to resist the flexion moment of gravity, while the thoracic region (dominated by *Hoxc6*) retains a primary kyphotic curvature.
 
 ## Biological metric and effective energy
 
