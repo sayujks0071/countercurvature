@@ -46,7 +46,7 @@ Figure 3A shows the equilibrium shape of a rod with human-like parameters. The I
 
 We map the behavior of the system across the parameter space of coupling strength $\chi_\kappa$ and gravitational acceleration $g$.
 
-![**Phase Diagram of Countercurvature Regimes.** Heatmap of geodesic deviation $\widehat{D}_{\mathrm{geo}}$ in the $(\chi_\kappa, g)$ plane. Three regimes are identified: (I) Gravity-dominated (sag), (II) Cooperative (stable S-curve), and (III) Information-dominated (potential for instability).](assets/fig_phase_diagram_scoliosis.pdf)
+![**Phase Diagram of Countercurvature Regimes.** Heatmap of geodesic deviation $\widehat{D}_{\mathrm{geo}}$ in the $(\chi_\kappa, g)$ plane. Three regimes are identified: (I) Gravity-dominated (sag), (II) Cooperative (stable S-curve), and (III) Information-dominated (potential for instability).](assets/fig_phase_diagram_scoliosis.png)
 ****Phase Diagram of Countercurvature Regimes.** Heatmap of geodesic deviation $\widehat{D}_{\mathrm{geo}}$ in the $(\chi_\kappa, g)$ plane. Three regimes are identified: (I) Gravity-dominated (sag), (II) Cooperative (stable S-curve), and (III) Information-dominated (potential for instability).**
 
 Figure 4 reveals three distinct regimes. In the \emph{gravity-dominated} regime (low $\chi_\kappa$), the rod follows the passive geodesic (sag). In the \emph{cooperative} regime, information and gravity balance to produce a stable S-curve. In the \emph{information-dominated} regime (high $\chi_\kappa$), the effective metric becomes highly distorted, leading to complex curvature patterns.
@@ -55,7 +55,7 @@ Figure 4 reveals three distinct regimes. In the \emph{gravity-dominated} regime 
 
 Finally, we explore the consequences of symmetry breaking in the information field.
 
-![**Emergence of Scoliosis-like Patterns.** (A) A small lateral asymmetry is introduced in the information field. (B) In the cooperative regime, this perturbation is suppressed. (C) In the information-dominated regime, the same perturbation is amplified into a large lateral deviation (scoliosis-like mode), characterized by high Cobb angles and axial rotation.](assets/fig_phase_diagram_scoliosis.pdf)
+![**Emergence of Scoliosis-like Patterns.** (A) A small lateral asymmetry is introduced in the information field. (B) In the cooperative regime, this perturbation is suppressed. (C) In the information-dominated regime, the same perturbation is amplified into a large lateral deviation (scoliosis-like mode), characterized by high Cobb angles and axial rotation.](assets/fig_phase_diagram_scoliosis.png)
 ****Emergence of Scoliosis-like Patterns.** (A) A small lateral asymmetry is introduced in the information field. (B) In the cooperative regime, this perturbation is suppressed. (C) In the information-dominated regime, the same perturbation is amplified into a large lateral deviation (scoliosis-like mode), characterized by high Cobb angles and axial rotation.**
 
 In the information-dominated regime, a small asymmetric perturbation (e.g., 5\% difference in left/right information) is amplified into a pronounced lateral deformity with axial rotation (Fig.~5). This suggests that idiopathic scoliosis may represent a "mode shape" of the spine that becomes accessible when the information-elasticity coupling is too strong relative to the stabilizing effect of gravity.

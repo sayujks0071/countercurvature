@@ -3,6 +3,11 @@
 ## Interpreting Biological Countercurvature
 Our results suggest that the adult spinal shape is best understood as a "standing wave" of counter-curvature, maintained by the continuous action of developmental information against gravity. The IEC framework provides a quantitative language for this: the information field $I(s)$ effectively "warps" the material metric, creating a potential well where the S-shape is the stable equilibrium. This explains why the spine does not collapse into a simple sag and why this geometry persists even in microgravity.
 
+Numerical analysis of the phase diagram (Fig. 4) reveals three distinct regimes governed by the normalized geodesic deviation $\widehat{D}_{\mathrm{geo}}$:
+1.  **Gravity-Dominated** ($\widehat{D}_{\mathrm{geo}} < 0.1$): The spine behavior is dictated by passive elasticity; information is too weak to enforce a shape.
+2.  **Cooperative** ($0.1 \le \widehat{D}_{\mathrm{geo}} \le 0.2$): The ideal "healthy" regime where information and gravity balance to produce a stable, robust S-curve.
+3.  **Information-Dominated** ($\widehat{D}_{\mathrm{geo}} > 0.2$): The metric becomes highly distorted. In this regime, even small asymmetries in the information field ($\epsilon \approx 1\%$) can destabilize the planar solution, triggering a bifurcation into lateral deformities resembling scoliosis (Fig. 5).
+
 ## Links to Developmental Genetics and Evolution
 The information field $I(s)$ serves as a coarse-grained representation of the HOX code. The peaks in our phenomenological $I(s)$ correspond to the cervical and lumbar regions, suggesting that specific HOX paralogs may function as "curvature generators" by modulating local growth rates or tissue stiffness. Evolutionarily, the transition to bipedalism likely involved the tuning of this information field to stabilize the S-mode against the increased gravitational moment of an upright posture.
 
