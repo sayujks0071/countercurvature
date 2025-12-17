@@ -16,7 +16,6 @@ The central hypothesis of IEC is that the information field modifies the ``effec
 
 $$
 d\ell_{\mathrm{eff}}^2 = g_{\mathrm{eff}}(s)\,ds^2 = \exp\left[2\left(\beta_1 \tilde{I}(s) + \beta_2 \frac{\partial \tilde{I}}{\partial s}\right)\right] ds^2,
-\label{eq:biological_metric}
 $$
 where $\tilde{I}$ is the normalized information field and $\beta_{1,2}$ are coupling constants. This metric implies that regions of high information density or gradient have a larger ``effective length,'' effectively prescribing a target curvature.
 
@@ -24,7 +23,6 @@ The energetics of the rod are governed by an IEC-modified elastic energy functio
 
 $$
 \mathcal{E} = \int_0^L \frac{1}{2} B(s) \left( \kappa(s) - \kappa_{\mathrm{rest}}(s) \right)^2 w(I(s)) \, ds,
-\label{eq:iec_energy}
 $$
 where $\kappa(s)$ is the curvature, $\kappa_{\mathrm{rest}}(s) = \kappa_0 + \chi_\kappa \partial_s I$ is the information-dependent rest curvature, and $w(I) = 1 + \chi_E I(s)$ is a stiffness weighting function. This energy penalizes deviations from the information-prescribed shape more heavily in regions of high $I(s)$.
 
@@ -33,9 +31,10 @@ where $\kappa(s)$ is the curvature, $\kappa_{\mathrm{rest}}(s) = \kappa_0 + \chi
 The equilibrium configuration is found by minimizing the total potential energy (elastic + gravitational). In the language of Cosserat rod theory, this yields the balance of linear and angular momentum. For a static rod subject to gravity $\mathbf{f}_g = \rho A \mathbf{g}$ and IEC-driven active moments, the equations are:
 
 $$
+\begin{aligned}
 \mathbf{n}'(s) + \mathbf{f}_g &= \mathbf{0},  \\
 \mathbf{m}'(s) + \mathbf{r}'(s) \times \mathbf{n}(s) + \mathbf{m}_{\mathrm{info}}'(s) &= \mathbf{0},
-\label{eq:cosserat_balance}
+\end{aligned}
 $$
 where $\mathbf{n}$ is the internal force, $\mathbf{m}$ is the internal moment, and $\mathbf{m}_{\mathrm{info}}$ represents the active couple induced by the information field.
 
@@ -45,6 +44,5 @@ The interplay between the gravitational potential (favoring a C-shaped sag) and 
 
 $$
 \mathcal{L}_{\mathrm{IEC}}[y(s)] = \frac{d^2}{ds^2} \left( B_{\mathrm{eff}}(s) \frac{d^2 y}{ds^2} \right) - \frac{d}{ds} \left( N(s) \frac{dy}{ds} \right) = \lambda_n y_n(s),
-\label{eq:mode_selection}
 $$
 where $N(s)$ is the axial tension due to gravity. The information field modifies the operator $\mathcal{L}_{\mathrm{IEC}}$ such that the lowest energy mode $\lambda_0$ shifts from a monotonic C-shape (passive buckling) to a higher-order S-shape (counter-curvature). This spectral shift explains the robustness of the spinal curve: the S-shape becomes the energetic ground state of the information-coupled system.
