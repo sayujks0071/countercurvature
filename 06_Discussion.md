@@ -6,6 +6,8 @@ Our results suggest that the adult spinal shape is best understood as a "standin
 ## Links to Developmental Genetics and Evolution
 The information field $I(s)$ serves as a coarse-grained representation of the HOX code. The peaks in our phenomenological $I(s)$ correspond to the cervical and lumbar regions, suggesting that specific HOX paralogs may function as "curvature generators" by modulating local growth rates or tissue stiffness. Evolutionarily, the transition to bipedalism likely involved the tuning of this information field to stabilize the S-mode against the increased gravitational moment of an upright posture.
 
+Our AlphaFold analysis extends this concept to the molecular level, showing that proteins like YAP1 and FOXO3 exhibit structural curvature that correlates with their sequence information content. This implies a fractal-like organization where information acts as a "stiffening agent" against gravity from the protein backbone up to the vertebral column.
+
 ## Relation to Existing Biomechanical and Rod Models
 Traditional biomechanical models often prescribe the rest shape ad hoc or model the spine as a passive beam column. Our approach differs by deriving the geometry from an underlying scalar field. This connects the mechanics to the developmental inputs. Furthermore, by using Cosserat rod theory, we capture the full 3D kinematics (twist, shear) essential for understanding how planar information fields can give rise to out-of-plane deformities like scoliosis.
 

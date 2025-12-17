@@ -9,3 +9,9 @@
 - [Results](05_Results.md)
 - [Discussion](06_Discussion.md)
 - [Conclusion](07_Conclusion.md)
+
+## Supplementary Material
+
+- [AlphaFold Analysis Report](supplementary/alphafold_analysis/analysis_report.md)
+- [Entropy-Curvature Correlation Plot](supplementary/alphafold_analysis/figures/entropy_curvature_correlation.png)
+- [Analysis Source Code](supplementary/alphafold_analysis/)
